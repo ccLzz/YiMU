@@ -10,11 +10,58 @@
 #define tongle_TLImageName_h
 
 
-//首页按下图标
-#define  TL_MAIN_PRESS  @"main_press"
-//收藏按下图标
-#define  TL_COLLECT_PRESS @"collect_press"
+//
+#define  ADD-ADDRESS  @"add-adress"
+//
+#define  BACK @"back"
 
+#define  CAMEAR1 @"camear1"
+
+#define  CAMER-ADD @"camer-add"
+
+#define  CHANGE-ADDRESS @"change-adress"
+
+#define  CHECKED-ADDRESS @"checked-adress"
+
+#define  HOME-LOGE-CHECKED @"home-logo-checked"
+
+#define  HOME-LOGO @"home-logo"
+
+#define  LOGO @"logo"
+
+#define  LUYINDZ-CHECKED1 @"luyindz-checked1"
+
+#define  LUYINDZ-CHECKED2 @"luyindz-checked2"
+
+#define  LUYINDZ-CHECKED3 @"luyindz-checked3"
+
+#define  MAINTAIN-CHECKED @"maintain-checked"
+
+#define  MAINTAIN @"maintain"
+
+#define  MICROPHONE @"Microphone"
+
+#define  NO-CHECKED @"no-checked"
+
+#define  STAR-CHECKED @"star-checked"
+
+#define  STAR @"star"
+
+#define  WEIXIUSHUOMING-CHECKED @"weixiushuoming-checked"
+
+#define  WEIXIUSHUOMING @"weixiushuoming"
+
+#define  WODEDINGDAN-CHECKED @"wodedingdan-checked"
+
+#define  WODEDINGDAN @"wodedingdan"
+
+#define  WODESHEBEI-CHECKED @"wodeshebei-checked"
+
+#define  WODESHEBEI @"wodeshebei"
+
+#define  ZHYE-CAMEAR @"zhye-camear"
+
+#define  ZHYE-MICROPHONE @"zhye-microphone"
 
 
 

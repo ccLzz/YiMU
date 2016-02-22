@@ -270,10 +270,6 @@
 			children = (
 				4B65E3741C7ABF540066EE6F /* 维修模块 */,
 				4B65E3751C7ABF990066EE6F /* 个人模块 */,
-				23DB1B751C715F3400F93263 /* 维修说明 */,
-				23DB1B741C715F0C00F93263 /* 我的订单 */,
-				23DB1B721C715EEE00F93263 /* 我的设备 */,
-				23DB1B6F1C715DBA00F93263 /* 报修保养 */,
 				4B65E3731C7ABEAF0066EE6F /* Others */,
 				23CC6D0D1C604D4E000958F0 /* Supporting Files */,
 			);
@@ -464,9 +460,9 @@
 		4B65E3731C7ABEAF0066EE6F /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				23CC6D161C604D4E000958F0 /* Main.storyboard */,
 				23CC6D101C604D4E000958F0 /* AppDelegate.h */,
 				23CC6D111C604D4E000958F0 /* AppDelegate.m */,
-				23CC6D161C604D4E000958F0 /* Main.storyboard */,
 				4B65E36F1C7ABD3F0066EE6F /* ImageNames.h */,
 				4B65E3761C7ABFCD0066EE6F /* Urls.h */,
 				23CC6D1E1C604D4E000958F0 /* LaunchScreen.storyboard */,
@@ -481,6 +477,10 @@
 		4B65E3741C7ABF540066EE6F /* 维修模块 */ = {
 			isa = PBXGroup;
 			children = (
+				23DB1B6F1C715DBA00F93263 /* 报修保养 */,
+				23DB1B721C715EEE00F93263 /* 我的设备 */,
+				23DB1B741C715F0C00F93263 /* 我的订单 */,
+				23DB1B751C715F3400F93263 /* 维修说明 */,
 			);
 			name = "维修模块";
 			sourceTree = "<group>";
