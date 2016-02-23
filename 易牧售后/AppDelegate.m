@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TabbarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,6 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-   
     
     //改变tabbar控制器字体颜色
 //    NSMutableDictionary * textAttrs = [NSMutableDictionary dictionary];

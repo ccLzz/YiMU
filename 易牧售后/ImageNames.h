@@ -11,58 +11,65 @@
 
 
 //
-#define  ADD-ADDRESS  @"add-adress"
+#define  ADD_ADDRESS  @"add-adress"
 //
 #define  BACK @"back"
 
 #define  CAMEAR1 @"camear1"
 
-#define  CAMER-ADD @"camer-add"
+#define  CAMER_ADD @"camer-add"
 
-#define  CHANGE-ADDRESS @"change-adress"
+#define  CHANGE_ADDRESS @"change-adress"
 
-#define  CHECKED-ADDRESS @"checked-adress"
+#define  CHECKED_ADDRESS @"checked-adress"
 
-#define  HOME-LOGE-CHECKED @"home-logo-checked"
+#define  HOME_LOGE_CHECKED @"home-logo-checked"
 
-#define  HOME-LOGO @"home-logo"
+#define  HOME_LOGO @"home-logo"
 
 #define  LOGO @"logo"
 
-#define  LUYINDZ-CHECKED1 @"luyindz-checked1"
+#define  LUYINDZ_CHECKED1 @"luyindz-checked1"
 
-#define  LUYINDZ-CHECKED2 @"luyindz-checked2"
+#define  LUYINDZ_CHECKED2 @"luyindz-checked2"
 
-#define  LUYINDZ-CHECKED3 @"luyindz-checked3"
+#define  LUYINDZ_CHECKED3 @"luyindz-checked3"
 
-#define  MAINTAIN-CHECKED @"maintain-checked"
+#define  MAINTAIN_CHECKED @"maintain-checked"
 
 #define  MAINTAIN @"maintain"
 
 #define  MICROPHONE @"Microphone"
 
-#define  NO-CHECKED @"no-checked"
+#define  NO_CHECKED @"no-checked"
 
-#define  STAR-CHECKED @"star-checked"
+#define  STAR_CHECKED @"star-checked"
 
 #define  STAR @"star"
 
-#define  WEIXIUSHUOMING-CHECKED @"weixiushuoming-checked"
+#define  WEIXIUSHUOMING_CHECKED @"weixiushuoming-checked"
 
 #define  WEIXIUSHUOMING @"weixiushuoming"
 
-#define  WODEDINGDAN-CHECKED @"wodedingdan-checked"
+#define  WODEDINGDAN_CHECKED @"wodedingdan-checked"
 
 #define  WODEDINGDAN @"wodedingdan"
 
-#define  WODESHEBEI-CHECKED @"wodeshebei-checked"
+#define  WODESHEBEI_CHECKED @"wodeshebei-checked"
 
 #define  WODESHEBEI @"wodeshebei"
 
-#define  ZHYE-CAMEAR @"zhye-camear"
+#define  ZHYE_CAMEAR @"zhye-camear"
 
-#define  ZHYE-MICROPHONE @"zhye-microphone"
+#define  ZHYE_MICROPHONE @"zhye-microphone"
 
+#define  MINE_LOGO_CHECKED @"mine-logo-checked"
+
+#define  MINE_LOGO @"mine-logo"
+
+#define  REPAIR_LOGO @"repair-logo"
+
+#define  REPAIR_LOGO_CHECKED @"repair-logo-checked"
 
 
 
