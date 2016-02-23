@@ -24,7 +24,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3xO-pr-e5w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3045" y="199"/>
+            <point key="canvasLocation" x="2977" y="795"/>
         </scene>
         <!--维修主页-->
         <scene sceneID="5pE-ai-v0P">
@@ -55,7 +55,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="tapDeviceBtn:" destination="Luz-8t-3QL" eventType="touchUpInside" id="LSG-GI-jxB"/>
+                                    <segue destination="xBc-8q-8M5" kind="show" id="OFN-xi-q6c"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3c8-Ac-Zxm">
@@ -75,7 +75,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="tapRepairBtn:" destination="Luz-8t-3QL" eventType="touchUpInside" id="zq2-mZ-Oeb"/>
+                                    <segue destination="Pxp-xA-e9N" kind="show" id="HTS-Lc-jaa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kdr-kU-vtg">
@@ -115,7 +115,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="tapDirectionBtn:" destination="Luz-8t-3QL" eventType="touchUpInside" id="zzB-TE-iqX"/>
+                                    <segue destination="57x-sF-hHR" kind="show" id="Chd-Li-4Rp"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -140,18 +140,22 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Kdr-kU-vtg" secondAttribute="trailing" constant="50" id="r8B-B7-BD9"/>
                         </constraints>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem image="back" style="plain" id="Hca-Zt-ISD">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="O7q-tv-0BM">
+                                <rect key="frame" x="16" y="7" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </barButtonItem>
+                    </toolbarItems>
                     <navigationItem key="navigationItem" title="维修主页" id="BA0-Oe-hSr" colorLabel="IBBuiltInLabel-Yellow"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                    <connections>
-                        <outlet property="OrderBtn" destination="Kdr-kU-vtg" id="TMv-NN-cgY"/>
-                        <outlet property="RepairBtn" destination="3c8-Ac-Zxm" id="eQ8-2t-FDs"/>
-                        <outlet property="deviceBtn" destination="533-cD-4xs" id="WS4-Jj-x0r"/>
-                        <outlet property="directionBtn" destination="4hz-Zn-17L" id="oqM-zu-RmZ"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zyt-sG-v4b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2999" y="-494"/>
+            <point key="canvasLocation" x="2992" y="-669"/>
         </scene>
         <!--Tabbar Controller-->
         <scene sceneID="lMk-l2-43q">
@@ -184,7 +188,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="FDg-Kk-GLt">
-                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FDg-Kk-GLt" id="Cp0-cO-CO2">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -202,7 +206,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fVp-Km-mgl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4061" y="-248"/>
+            <point key="canvasLocation" x="3586" y="-252"/>
         </scene>
         <!--我的设备-->
         <scene sceneID="3JQ-6H-TDe">
@@ -214,7 +218,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Kir-53-CzR">
-                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Kir-53-CzR" id="IoV-km-SHp">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -232,7 +236,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YEV-nd-rVE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4079" y="-787"/>
+            <point key="canvasLocation" x="3586" y="-773"/>
         </scene>
         <!--报修保养-->
         <scene sceneID="hfv-ae-q9i">
@@ -361,7 +365,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V4V-xL-yW2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3254" y="-1316"/>
+            <point key="canvasLocation" x="3586" y="-1310"/>
         </scene>
         <!--录音-->
         <scene sceneID="10G-oP-sDh">
@@ -431,7 +435,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hNE-OC-c9k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4066" y="291"/>
+            <point key="canvasLocation" x="3844" y="393"/>
         </scene>
         <!--维修主页-->
         <scene sceneID="IZI-Fx-J2V">
@@ -469,10 +473,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f0v-4g-fyo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2642" y="199"/>
+            <point key="canvasLocation" x="2606" y="795"/>
         </scene>
     </scenes>
     <resources>
+        <image name="back" width="42" height="41"/>
         <image name="baoxiu" width="600" height="94"/>
         <image name="baoxiu-checked-3x.png" width="866" height="136"/>
         <image name="camear1" width="192" height="180"/>
